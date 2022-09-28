@@ -1,5 +1,7 @@
 package com.infinite;
 
+import java.util.Scanner;
+
 public class ForLoopExample {
     public static void main(String[] args) {
 //        loop-> start point, End point, increment/decrement
@@ -26,10 +28,16 @@ public class ForLoopExample {
         ForLoopExample obj = new ForLoopExample();
         obj.array();
         obj.MultiDimensionArray();
+        obj.switchCase();
     }
 
     void array(){
-        int a[]= {1,12,3,6,7,8};
+        int a1[] = new int[5];
+        a1[0]=34;
+        a1[3]=56;
+        a1[4]=87;
+
+        int a[]= {1,12,3,6,7,8,6,7,87};
 
         for(int i=0;i<=5;i++){
             System.out.println("a["+i+"] = " + a[i]);
@@ -53,6 +61,27 @@ public class ForLoopExample {
                System.out.print("arr["+i+"]["+j+"] = " + arr[i][j]+", ");
            }
             System.out.println();
+        }
+
+    }
+
+    void switchCase(){
+        int ch;
+        Scanner sc = new Scanner(System.in);
+        ch = sc.nextInt();
+        switch (ch){
+            case 1:
+                System.out.println(" this is from case 1");
+                break;
+            case 2:
+                System.out.println("this is from case 2");
+                break;
+            case 3:
+                System.out.println("this is from case 3");
+                break;
+            default:
+                System.out.println("this is from defauklt");
+                break;
         }
 
     }
