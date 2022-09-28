@@ -133,7 +133,7 @@ public class ForLoopExample {
 
        static void ArraysFunction(){
             int[] numArr = {6,8,9,10,40,66};
-            int resultIndex = Arrays.binarySearch(numArr, 50);
+            int resultIndex = Arrays.binarySearch(numArr, 40);
             System.out.println("resultIndex = " + resultIndex);
             int[] numArr1 = {6,8,9,10,40,66};
             int[] numArr2 = {6,8,9,10,40,66};
