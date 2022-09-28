@@ -14,7 +14,7 @@ public class Test {
     }
 
    static void f1(){
-
+       String[][][] dArray = new String[10][20][30];
        String name = "Oliver";
        String ab = name.concat(" Carter");
        System.out.println(ab);
@@ -92,7 +92,15 @@ public class Test {
        // this method deletes characters from strOne based on the arguments specified
        strOne.delete(0,3);
        System.out.println(strOne);
-
+       Character alphaObj = new Character('A');
+       Character digitObj = new Character('5');
+       boolean result1 = Character.isDigit(digitObj); // Output :- true
+       System.out.println(result1);
+       boolean result2 = Character.isUpperCase(alphaObj); // Output :- true
+       String val = alphaObj.toString(); // val = "A"
+       char beta = alphaObj.charValue(); // beta = 'A'
+       char c = digitObj.toLowerCase('B'); // c = 'b';
 
    }
+
 }
