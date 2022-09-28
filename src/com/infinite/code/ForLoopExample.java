@@ -1,4 +1,4 @@
-package com.infinite;
+package com.infinite.code;
 
 import java.util.Scanner;
 
@@ -48,7 +48,7 @@ public class ForLoopExample {
 
     }
 
-    void MultiDimensionArray(){
+    public void MultiDimensionArray(){
         int arr[][]={{1,2,3,5},
                 {5,6,7},
                 {6,7,5,4,3},
@@ -84,5 +84,11 @@ public class ForLoopExample {
                 break;
         }
 
+    }
+}
+class A1{
+    public static void main(String[] args) {
+        ForLoopExample obj = new ForLoopExample();
+        obj.MultiDimensionArray();
     }
 }

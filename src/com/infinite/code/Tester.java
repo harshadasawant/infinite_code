@@ -1,4 +1,4 @@
-package com.infinite;
+package com.infinite.code;
 
 public class Tester {
     int a; //instance variable it get initialised with default value=0

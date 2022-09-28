@@ -1,4 +1,4 @@
-package com.infinite;
+package com.infinite.code;
 
 public class BitWiseOperator {
     public static void main(String[] args) {

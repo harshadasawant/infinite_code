@@ -1,8 +1,12 @@
-package com.infinite;
+package com.infinite.code;
 //Premitive -- int, float, char, boolean, byte, short,long, double
 //Non premitive-- all objects are non premi, String, array
 public class DataTypes {
     public static void main(String[] args) {
+
+        ForLoopExample obj1 = new ForLoopExample();
+        obj1.MultiDimensionArray();
+
         int a = 10;
         Integer obj = a; //boxing
         int g =obj;  //unboxing
@@ -14,5 +18,9 @@ public class DataTypes {
         Double d1 = d;
 
         boolean t = true;
+
+        String s1 = "Hello";
+        s1="1";
+        System.out.println(s1);
    }
 }
