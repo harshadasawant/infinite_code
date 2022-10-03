@@ -140,7 +140,7 @@ class Customer {
         c1.display(6);
         c1.display(4, 5);
         c1.display(6, "hello");
-        c1.display(6, 6, "hello");
+
         System.out.println(c1.getName());
         System.out.println(c1.getId());
     }

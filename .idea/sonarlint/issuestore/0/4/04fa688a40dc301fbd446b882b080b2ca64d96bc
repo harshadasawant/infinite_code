@@ -1,0 +1,18 @@
+
+Q
+java:S1854"6Remove this useless assignment to local variable "s1".(ÞÿÙ¢úÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "d1".(§ã¹àþÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "g".(«Æ¯êüÿÿÿÿ
+A
+java:S1481"&Remove this unused "g" local variable.(«Æ¯êüÿÿÿÿ
+A
+java:S1905"&Remove this unnecessary cast to "int".(™ù¯²üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›ÛôÚ
+B
+java:S1481"'Remove this unused "d1" local variable.(§ã¹àþÿÿÿÿ
+A
+java:S1481"&Remove this unused "t" local variable.(œ“ç‰úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
