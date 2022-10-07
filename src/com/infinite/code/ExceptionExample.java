@@ -68,6 +68,10 @@ public class ExceptionExample {
     public static void main(String[] args) {
         ExceptionExample obj = new ExceptionExample();
 
+        String s=null;
+        System.out.println(s);
+        System.out.println(s.equals("hello"));
+
         try{
             obj.m2();
         }catch(ArithmeticException e){
